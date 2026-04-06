@@ -1,0 +1,60 @@
+/* Mengatur font dan warna latar belakang (Requirement 9: Komentar penjelas) */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4ece1; /* Warna krem pucat ala kopi */
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Membuat semua teks di tengah */
+}
+
+/* Mengatur tampilan Header / Bagian atas */
+header {
+    background-color: #5c4033; /* Warna coklat gelap */
+    color: white;
+    padding: 20px 0;
+}
+
+/* Mengatur area konten agar tidak terlalu lebar di layar besar */
+main {
+    max-width: 800px;
+    margin: 20px auto; /* Membuat konten berada di tengah (center) */
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px; /* Membuat sudut kotak melengkung */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Memberikan efek bayangan */
+}
+
+/* Mengatur ukuran dan tampilan gambar agar rapi */
+.gambar-kopi {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+/* Mengatur tampilan paragraf agar lebih mudah dibaca */
+p {
+    line-height: 1.6;
+    font-size: 16px;
+    text-align: justify; /* Teks rata kanan kiri */
+    padding: 0 20px;
+}
+
+/* Mengatur gaya tombol / Button */
+button {
+    background-color: #d2691e; /* Warna orange kecoklatan */
+    color: white;
+    font-size: 18px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* Memberikan efek saat mouse diarahkan ke tombol */
+button:hover {
+    background-color: #8b4513;
+}
